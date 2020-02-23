@@ -2,8 +2,15 @@
 
 class Anagram
   
-  def initialize(word)
-    
+  attr_accessor :word
+  
+  def initialize(string)
+    @word = string
+  end
+  
+  def match(string)
+    word_array.detect? {|item| word_array << item}
+    word_array
   end
   
 end
