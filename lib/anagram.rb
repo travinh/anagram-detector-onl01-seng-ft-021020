@@ -8,10 +8,8 @@ class Anagram
     @word = string
   end
   
-  def match(string)
+  def match(string_array)
     word_array = []
-    string_array = []
-    string_array= string.split(", ")
     string_array.each do |string|
       temp =[]
       temp2 = []
