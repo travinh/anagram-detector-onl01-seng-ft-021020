@@ -10,7 +10,16 @@ class Anagram
   
   def match(string)
     word_array = []
-    word_array.match {|item| word_array << item}
+    string_array = []
+    string_array= string.split(" ")
+    string_array.each do |string|
+      temp =[]
+      temp2 = []
+      temp = string.split("")
+      temp2 = @word.split("")
+      
+      
+    end
     word_array
   end
   
